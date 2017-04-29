@@ -100,4 +100,5 @@ group :production do
   gem 'rails_12factor'
   gem 'redis-rails'
   gem 'lograge'
+  gem 'newrelic_rpm'
 end
