@@ -43,3 +43,6 @@ redis
 # Ignore vim files
 *~
 *.swp
+
+# Ignore local build
+build/
