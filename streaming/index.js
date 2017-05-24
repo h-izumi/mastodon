@@ -13,7 +13,7 @@ import uuid from 'uuid';
 const env = process.env.NODE_ENV || 'development';
 
 dotenv.config({
-  path: env === 'production' ? '.env.production' : '.env',
+  path: env === 'production' ? '/home/mastodon/live/.env.production' : '.env',
 });
 
 const dbUrlToConfig = (dbUrl) => {
